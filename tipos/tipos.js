@@ -31,7 +31,6 @@ endereco = ["Rua Importante", 1260, "Bloco C"];
 console.log(endereco);
 // enums
 var Cor;
-// enums
 (function (Cor) {
     Cor[Cor["Cinza"] = 0] = "Cinza";
     Cor[Cor["Verde"] = 100] = "Verde";
@@ -66,9 +65,9 @@ function multiplicar(numA, numB) {
 }
 // console.log(multiplicar(2, 'Bia'));
 console.log(multiplicar(4.7, 9));
-const teste = function (a, b) {
-    return false;
-};
+// const teste = function (a: number, b: number): boolean {
+//   return false;
+// }
 // tipo função
 let calculo;
 // calculo = digaOi;
